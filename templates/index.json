@@ -2,7 +2,36 @@
   "sections": {
     "image_banner": {
       "type": "image-banner",
+      "blocks": {
+        "subtitle_gDUnFy": {
+          "type": "subtitle",
+          "settings": {
+            "subtitle": "SHOPIFY ECOMMERCE EXPERTS"
+          }
+        },
+        "heading_jaVxEw": {
+          "type": "heading",
+          "settings": {
+            "heading": "WE DESIGN, BUILD AND OPTIMISE EXCEPTIONAL ECOMMERCE WEBSITES."
+          }
+        },
+        "button_YGF3cB": {
+          "type": "button",
+          "settings": {
+            "button_label": "START YOUR PROJECT",
+            "button_link": ""
+          }
+        }
+      },
+      "block_order": [
+        "subtitle_gDUnFy",
+        "heading_jaVxEw",
+        "button_YGF3cB"
+      ],
       "settings": {
+        "background_image": "shopify:\/\/shop_images\/photographer-working-at-his-desk.jpg",
+        "content_placement": "bottom-left",
+        "content_alignment": "left"
       }
     },
     "featured_product_9bnXxD": {
