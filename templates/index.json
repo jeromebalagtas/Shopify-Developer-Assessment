@@ -36,8 +36,29 @@
     },
     "featured_product_9bnXxD": {
       "type": "featured-product",
+      "blocks": {
+        "accordion_jkHkKe": {
+          "type": "accordion",
+          "settings": {
+            "title": "MATERIALS",
+            "content": "{{ section.settings.product.metafields.custom.materials | metafield_tag }}"
+          }
+        },
+        "accordion_nPm3Ta": {
+          "type": "accordion",
+          "settings": {
+            "title": "Delivery Information",
+            "content": "<p>Lorem ipsum dolor sit amet, consectetur adipiscing elit. Donec quis augue tempus, vestibulum neque eu, tempor ex. Quisque pulvinar volutpat mi, vitae aliquet nisl tincidunt vitae. Nulla porta massa neque, vel tincidunt ante vestibulum quis. Sed feugiat auctor ipsum. Orci varius natoque penatibus et magnis dis parturient montes, nascetur ridiculus mus.<\/p>"
+          }
+        }
+      },
+      "block_order": [
+        "accordion_jkHkKe",
+        "accordion_nPm3Ta"
+      ],
       "settings": {
-        "product": ""
+        "product": "the-complete-snowboard",
+        "show_quantity_selector": true
       }
     }
   },

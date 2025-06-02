@@ -4,7 +4,22 @@
   "sections": {
     "footer": {
       "type": "footer",
+      "blocks": {
+        "link_list_nJBQHG": {
+          "type": "link_list",
+          "settings": {
+            "heading": "",
+            "menu": "footer"
+          }
+        }
+      },
+      "block_order": [
+        "link_list_nJBQHG"
+      ],
       "settings": {
+        "title": "CONTACT US",
+        "email": "hello@shopify.com",
+        "text": "Copyright 2023 Drive Digital. All rights reserved."
       }
     }
   },
